@@ -32,9 +32,9 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss" scoped>
 .twoot-item {
-    padding: 20px;
+    padding: 15px;
     background-color: white;
     border-radius: 5px;
     border: 1px solid #dfe3e8;
