@@ -5,7 +5,7 @@
         Twotter
       </div>
       <div class="navigation__user">
-        {{ user.username }}
+        {{ state.user.username }}
       </div>
     </nav>
     <UserProfile/>
