@@ -13,16 +13,21 @@
 </template>
 
 <script> //for javascript/vue 
+import { reactive } from 'vue';
 import UserProfile from "./components/UserProfile";
 
 export default {
   name: 'App',
   components: { UserProfile },
-  data() {
-    return {
+  setup() {
+    const state = reactive({
       user: {
         username: 'DuncanFV'
       }
+    })
+
+    return {
+      state
     }
   }
 }
